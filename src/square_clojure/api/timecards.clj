@@ -1,5 +1,7 @@
 (ns square-clojure.api.timecards
-  (:require [square-clojure.core :refer :all]))
+  (:require [square-clojure.core :refer :all]
+            [clj-time.core :as t]
+            [clj-time.coerce :as c] ))
 
 (defn daily-timecard [date token offset]
   (let [offset-datetime (t/from-time-zone date (t/time-zone-for-offset offset))]
@@ -17,4 +19,4 @@
                     :minutes (t/in-minutes (t/interval
                                             (c/from-string (get x "clockin_time"))
                                             (c/from-string (get x "clockout_time"))))))
-   (daily-timecard date token offet)))
+   (daily-timecard date token offset)))

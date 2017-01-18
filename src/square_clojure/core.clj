@@ -11,5 +11,5 @@
 (defn square-get [endpoint token]
   (parse-string (get (client/get
                       (str "https://connect.squareup.com/v1/" endpoint)
-                      {:headers {(str "Authorization" "Bearer " token)}})
+                      {:headers {"Authorization" (str "Bearer " token)}})
                      :body)))
