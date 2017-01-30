@@ -4,9 +4,8 @@
             [clj-time.coerce :as c]))
 
 (defn daily-sales [date location-id offset token]
-  (let [offset-datetime (t/from-time-zone date (t/time-zone-for-offset -7))]
+  (let [offset-datetime (t/from-time-zone date (t/time-zone-for-offset offset))]
     (square-get (str
-                 "/"
                  location-id
                  "/payments?begin_time="
                  (c/to-string offset-datetime)

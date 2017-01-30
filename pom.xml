@@ -4,7 +4,7 @@
   <groupId>square-clojure</groupId>
   <artifactId>square-clojure</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>square-clojure</name>
   <description>Library to connect to square api</description>
   <url>https://github.com/mark-nery/square-clojure</url>
@@ -17,7 +17,7 @@
   <scm>
     <connection>scm:git:git://github.com/mark-nery/square-clojure.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mark-nery/square-clojure.git</developerConnection>
-    <tag>16695468f5a3c092c102b7e509f64a2d182f1539
+    <tag>f409edcc2da750f4bcddd6c940dca182b6b4cc14
 </tag>
     <url>https://github.com/mark-nery/square-clojure</url>
   </scm>
