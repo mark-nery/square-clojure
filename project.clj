@@ -1,4 +1,4 @@
-(defproject square-clojure "0.1.1-SNAPSHOT"
+(defproject square-clojure "0.1.2-SNAPSHOT"
   :description "Library to connect to square api"
   :url "https://github.com/mark-nery/square-clojure"
   :license {:name "Eclipse Public License"

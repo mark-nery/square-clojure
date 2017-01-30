@@ -17,7 +17,7 @@
   <scm>
     <connection>scm:git:git://github.com/mark-nery/square-clojure.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mark-nery/square-clojure.git</developerConnection>
-    <tag>f409edcc2da750f4bcddd6c940dca182b6b4cc14
+    <tag>4c1fea52deac6e4b7d5e48d55e3bcae9941ad45b
 </tag>
     <url>https://github.com/mark-nery/square-clojure</url>
   </scm>
